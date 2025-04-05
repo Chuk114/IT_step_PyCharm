@@ -5,7 +5,6 @@ b = float(input("Введи друге число (b): "))
 
 operation = input("Вибери математичну операцію (+, -, *, /): ")
 
-
 if operation == "+":
     result = a + b
     print(f"Результат: {a} + {b} = {result}")

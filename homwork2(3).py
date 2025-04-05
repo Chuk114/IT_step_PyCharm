@@ -20,7 +20,6 @@ while sprob > 0:
         print("Менше")
     else:
         print("Більше")
-
     sprob -= 1
     if sprob > 0:
         print(f"У тебе залишилось спроб: {sprob}")
