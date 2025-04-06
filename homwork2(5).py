@@ -1,4 +1,3 @@
-
 n = int(input("Введи число n: "))
 
 for i in range(n, 0, -1):

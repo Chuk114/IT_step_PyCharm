@@ -1,23 +1,17 @@
-
-a = float(input("Введи перше число (a): "))
-b = float(input("Введи друге число (b): "))
-
-operation = input("Вибери математичну операцію (+, -, *, /): ")
+a = float(input("Введіть перше число: "))
+b = float(input("Введіть друге число: "))
+operation = input("Оберіть дію (+, -, *, /): ")
 
 if operation == "+":
-    result = a + b
-    print(f"Результат: {a} + {b} = {result}")
+    print(f"Результат: {a + b}")
 elif operation == "-":
-    result = a - b
-    print(f"Результат: {a} - {b} = {result}")
+    print(f"Результат: {a - b}")
 elif operation == "*":
-    result = a * b
-    print(f"Результат: {a} * {b} = {result}")
+    print(f"Результат: {a * b}")
 elif operation == "/":
     if b == 0:
-        print("Ділення на нуль неможливе!")
+        print("Ділення на нуль")
     else:
-        result = a / b
-        print(f"Результат: {a} / {b} = {result}")
+        print(f"Результат: {a / b}")
 else:
-    print("Невідома операція! Будь ласка, вибери одну з наступних: +, -, *, /.")
+    print("Невідома операція")

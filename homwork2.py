@@ -1,4 +1,3 @@
-name = input("ведіть своє імя:")
-print("привіт ",name)
-age = int(input("скільки вам років:"))
-print("тобі",age)
+name = input("Як тебе звати? ")
+age = input("Скільки тобі років? ")
+print(f"Привіт {name}, тобі {age}!")
