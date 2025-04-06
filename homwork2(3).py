@@ -1,6 +1,5 @@
 import random
 
-
 zagadane_chyslo = random.randint(1, 10)
 
 print("Я загадав число від 1 до 10. Спробуй вгадати!")

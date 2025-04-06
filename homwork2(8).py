@@ -2,7 +2,6 @@
 a = float(input("Введи перше число (a): "))
 b = float(input("Введи друге число (b): "))
 
-
 operation = input("Вибери математичну операцію (+, -, *, /): ")
 
 if operation == "+":
