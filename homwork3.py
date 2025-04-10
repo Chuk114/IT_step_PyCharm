@@ -8,7 +8,6 @@ class BankAccount:
             print(f"На рахунок {self.account_number} зараховано {amount} грн.")
         else:
             print("Сума поповнення повинна бути більшою за 0.")
-
     def withdraw(self, amount):
         if amount > self.balance:
             print("Недостатньо коштів на рахунку.")
