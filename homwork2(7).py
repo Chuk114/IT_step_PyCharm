@@ -1,12 +1,12 @@
-score = int(input("Введіть кількість балів: "))
-
-if 0 <= score <= 49:
-    print("Незадовільно")
-elif 50 <= score <= 69:
-    print("Задовільно")
-elif 70 <= score <= 89:
-    print("Добре")
-elif 90 <= score <= 100:
-    print("Відмінно")
-else:
-    print("Некоректна кількість балів")
+class Student:
+ amount_of_students = 0
+ def __init__(self, height=160):
+ self.height = height
+ Student.amount_of_students+=1
+ def grow(self, height=1):
+ self.height+=height
+mark = Student()
+artem = Student(height=170)
+mark.grow(height=15)
+print(artem.height)
+print(mark.height)
