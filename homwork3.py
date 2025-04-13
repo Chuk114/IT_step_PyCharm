@@ -5,7 +5,7 @@ class BankAccount:
     def deposit(self, amount):
         if amount > 0:
             self.balance += amount
-            print(f"На рахунок {self.account_number} зараховано {amount} грн.")
+            print("На рахунок {self.account_number} зараховано {amount} грн.")
         else:
             print("Сума поповнення повинна бути більшою за 0.")
     def withdraw(self, amount):
