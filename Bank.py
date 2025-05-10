@@ -49,6 +49,5 @@ bank.add_account(acc2)
 acc1.deposit(100)
 acc2.withdraw(50)
 bank.transfer("111", "222", 200)
-
 acc1.show_info()
 acc2.show_info()
